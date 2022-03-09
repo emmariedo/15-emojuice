@@ -1,6 +1,50 @@
-.class  {
+.sirop {
   background-color: #C4F2AD;
-
+  height: 400px;
 }
 
-li { }
+.sirop h2 {
+  font-family: Sriracha;
+  font-size: 30px;
+  text-align: center;
+}
+
+.sirop p {
+  font-family: Quattrocento;
+  font-size: 16px;
+  text-align: center;
+}
+
+.kiwi {
+  background-color: #57BB6B;
+  height: 690px;
+  color: white;
+}
+
+.kiwi h2 {
+  font-family: Maven Pro;
+}
+
+.kiwi p {
+  font-family: Quattrocento;
+}
+
+.autres {
+  background-color: #C4F2AD;
+  height: 400px;
+}
+
+.delices {
+  
+}
+
+.button {
+  background-color: #57BB6B;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
