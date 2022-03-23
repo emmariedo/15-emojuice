@@ -1,18 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 8px 0 0;
+}
+
+header {
+  background-image: url(../img/fruits.png);
+  padding: 25px 30px;
+}
+
+header p{
+  font-family: 'Quattrocento', serif;
+  font-size: 20px;
+  color: #57BB6B;
+  text-align: center;
+}
+
+.title-container {
+  background: #ffffffe6;
+  padding: 25px 30px; 
+}
+
 .sirop {
   background-color: #C4F2AD;
   height: 400px;
+  text-align: center;
 }
 
 .sirop h2 {
-  font-family: Sriracha;
+  font-family: 'Sriracha', cursive;
   font-size: 30px;
   text-align: center;
+  padding-top: 74px;
 }
 
 .sirop p {
-  font-family: Quattrocento;
+  font-family: 'Quattrocento', serif;
   font-size: 16px;
   text-align: center;
+  opacity: 50%;
+  padding-bottom: 45px;
+}
+
+.sirop img {
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 30px 30px;
 }
 
 .kiwi {
@@ -22,20 +63,65 @@
 }
 
 .kiwi h2 {
-  font-family: Maven Pro;
+  font-family: 'Maven Pro', sans-serif;
+  padding-left: 67px;
+  padding-top: 63px;
+  padding-bottom: 54px;
 }
 
 .kiwi p {
-  font-family: Quattrocento;
+  font-family: 'Quattrocento', serif;
+  margin-left: 68px;
+  padding-bottom: 38px;
+  padding-right: 68px;
+}
+
+.kiwi img {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 38px;
+  padding-left: 68px;
+  padding-right: 68px;
+}
+
+.kiwi ul {
+  margin-left: 77px;
+  padding-bottom: 56px;
+}
+
+.kiwi h3 {
+  margin-left: 68px;
+  padding-bottom: 22px;
 }
 
 .autres {
   background-color: #C4F2AD;
   height: 400px;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  font-size: 26px;
 }
 
 .delices {
-  
+  border-radius: 10px;
+  background-color: #F7A4B4;
+  font-family: 'Sriracha', cursive;
+  width: 151px;
+  height: 151px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.cafe {
+  border-radius: 10px;
+  background-color: #D3C6B2;
+  width: 151px;
+  height: 151px;
+  font-family: 'Sriracha', cursive;
+  text-align: left;
+  font-size: 20px;
 }
 
 .button {
@@ -43,8 +129,31 @@
   color: white;
   border-radius: 15px;
   text-align: center;
+  align-items: center;
+  font-size: 20px;
 }
 
 footer {
   text-align: center;
+  font-family: 'Maven Pro', sans-serif;
+  padding: 22px 75px;
+}
+
+footer h2 {
+  color: #57BB6B;
+  font-size: 26px;
+}
+
+footer p{
+  font-size: 12px;
+  color: #57BB6B;
+}
+
+.fruit-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fruit-container img {
+  max-width: 10%;
 }
