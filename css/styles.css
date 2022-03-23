@@ -96,6 +96,23 @@ header p{
   padding-bottom: 22px;
 }
 
+.autres {
+  background: #C4F2AD;
+  height: 401px;
+}
+
+.autres h3 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+.autres a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
 .card-strawberry {
   background: #F7A4B4;
   border-radius: 10%;
@@ -103,11 +120,36 @@ header p{
   width: 151px;
 }
 
+.card-strawberry p {
+  font-family: 'Sriracha', cursive;
+  font-size: 20px;
+}
+
+.card-strawberry img {
+  max-width: 35%;
+}
+
 .card-coffee {
   background: #D3C6B2;
   border-radius: 10%;
   height: 151px;
   width: 151px;
+}
+
+.card-coffee p {
+  font-family: 'Sriracha', cursive;
+  font-size: 20px;
+}
+
+.plus {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 38px;
+  color: black;
+  opacity: 50%;
+}
+
+.card-coffee img {
+  max-width: 35%;
 }
 
 .button {
