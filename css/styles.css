@@ -5,6 +5,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: #57BB6B;
 }
 
 body {
@@ -180,6 +181,8 @@ footer {
   text-align: center;
   font-family: 'Maven Pro', sans-serif;
   padding: 22px 75px;
+  height: 467px;
+  background-color: white;
 }
 
 footer h2 {
@@ -229,7 +232,6 @@ h3 {
 
 .produits {
   background-color: #57BB6B;
-  height: 1237px;
 }
 
 .produits h2{
@@ -238,4 +240,124 @@ h3 {
   font-size: 26px;
   text-align: center;
   padding-top: 49px;
+  padding-bottom: 35px;
+}
+
+.jus-banane {
+  border-radius: 15px;
+  background-color: #FFF8D7;
+  height: 240,75px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+  text-align: left;
+}
+
+.jus-banane h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  text-align: left;
+}
+
+.jus-banane p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+.jus-banane a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+}
+
+.sirop-kiwi {
+  border-radius: 15px;
+  background-color: #C4F2AD;
+  height: 240,75px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+}
+
+.sirop-kiwi h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  text-align: left;
+}
+
+.sirop-kiwi p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+.sirop-kiwi a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+}
+
+.produits-miniatures {
+  width: 20%;
+  display: flex;
+  align-items: end;
+  flex-direction: row;
+}
+
+.glace-cafe {
+  border-radius: 15px;
+  background-color: #D3C6B2;
+  height: 240,75px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+}
+
+.glace-cafe h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  text-align: left;
+  padding-top: 39px;
+}
+
+.glace-cafe p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+.glace-cafe a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+}
+
+.delice-fraise {
+  border-radius: 15px;
+  background-color: #F7A4B4;
+  height: 240,75px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 20px;
+}
+
+.delice-fraise h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  text-align: left;
+}
+
+.delice-fraise p {
+  font-family: 'Quattrocento', serif;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+.delice-fraise a {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.intro {
+  height: 389px;
+  background-color: white;
 }
